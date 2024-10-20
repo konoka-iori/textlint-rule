@@ -149,7 +149,7 @@ rules:
     prh: （技術用語）
   - expected: Microsoft
     patterns:
-      - MS
+      - (?<!\S)MS(?!\S)
       - マイクロソフト
     prh: （技術用語）
   - expected: Node.js
