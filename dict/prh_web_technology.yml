@@ -244,13 +244,13 @@ rules:
     patterns:
       - WEBStorm
     prh: （技術用語）
-  - expected: Wi-Fi
+  - expected: Wi\-Fi
     patterns:
       - WiFi
       - Wi Fi
-      - Wi-fi
+      - Wi\-fi
       - wifi
-      - wi-fi
+      - wi\-fi
     prh: （技術用語）
   - expected: Windows
     patterns:
