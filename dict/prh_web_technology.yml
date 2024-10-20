@@ -147,6 +147,11 @@ rules:
   - expected: Mbps
     patterns: MBps
     prh: （技術用語）
+  - expected: Microsoft
+    patterns:
+      - MS
+      - マイクロソフト
+    prh: （技術用語）
   - expected: Node.js
     patterns:
       - Node.JS
@@ -238,6 +243,23 @@ rules:
   - expected: WebStorm
     patterns:
       - WEBStorm
+    prh: （技術用語）
+  - expected: Wi-Fi
+    patterns:
+      - WiFi
+      - Wi Fi
+      - Wi-fi
+      - wifi
+      - wi-fi
+    prh: （技術用語）
+  - expected: Windows
+    patterns:
+      - ウィンドウズ
+      - windows
+      - Windows OS
+    prh: （技術用語）
+  - expected: Windows 11
+    patterns: Windows11
     prh: （技術用語）
   - expected: Windows 10
     patterns: Windows10
