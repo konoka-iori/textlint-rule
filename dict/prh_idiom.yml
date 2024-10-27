@@ -480,3 +480,13 @@ rules:
   - expected: 高嶺の花
     patterns: 高値の花
     prh: （誤字）
+  - expected: Shift
+    patterns:
+      - Shfit
+      - Shifuto
+    prh: （誤字）
+  - expected: shift
+    patterns:
+      - shfit
+      - shifuto
+    prh: （誤字）

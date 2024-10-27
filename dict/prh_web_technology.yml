@@ -259,19 +259,29 @@ rules:
       - Windows OS
     prh: （技術用語）
   - expected: Windows 11
-    patterns: Windows11
+    patterns:
+      - Windows11
+      - Window11
     prh: （技術用語）
   - expected: Windows 10
-    patterns: Windows10
+    patterns:
+      - Windows10
+      - Window10
     prh: （技術用語）
   - expected: Windows 7
-    patterns: Windows7
+    patterns:
+      - Windows7
+      - Window7
     prh: （技術用語）
   - expected: Windows 8
-    patterns: Windows8
+    patterns:
+      - Windows8
+      - Window8
     prh: （技術用語）
   - expected: Windows 8.1
-    patterns: Windows8.1
+    patterns:
+      - Windows8.1
+      - Window8.1
     prh: （技術用語）
   - expected: WordPress
     patterns:
