@@ -73,6 +73,24 @@ rules:
   - expected: Firefox
     patterns: FireFox
     prh: （技術用語）
+  - expected: Font Awesome
+    patterns:
+      - FontAwesome
+      - Font awesome
+      - font awesome
+      - fontAwesome
+      - Font Awesme
+      - Font Awesom
+      - FontAweome
+      - FontAwesme
+      - FontAwesom
+      - fontAwesme
+      - fontAwesom
+      - fontAweome
+      - font awesme
+      - font awesom
+      - font aweome
+    prh: （技術用語）
   - expected: GitHub
     patterns:
       - Github
