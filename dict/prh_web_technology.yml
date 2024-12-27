@@ -75,21 +75,21 @@ rules:
     prh: （技術用語）
   - expected: Font Awesome
     patterns:
-      - FontAwesome
-      - Font awesome
-      - font awesome
-      - fontAwesome
-      - Font Awesme
-      - Font Awesom
-      - FontAweome
-      - FontAwesme
-      - FontAwesom
-      - fontAwesme
-      - fontAwesom
-      - fontAweome
-      - font awesme
-      - font awesom
-      - font aweome
+      - /\bFontAwesome\b/
+      - /\bFont awesome\b/
+      - /\bfont awesome\b/
+      - /\bfontAwesome\b/
+      - /\bFont Awesme\b/
+      - /\bFont Awesom\b/
+      - /\bFontAweome\b/
+      - /\bFontAwesme\b/
+      - /\bFontAwesom\b/
+      - /\bfontAwesme\b/
+      - /\bfontAwesom\b/
+      - /\bfontAweome\b/
+      - /\bfont awesme\b/
+      - /\bfont awesom\b/
+      - /\bfont aweome\b/
     prh: （技術用語）
   - expected: GitHub
     patterns:
