@@ -220,6 +220,20 @@ rules:
       - Typescript
       - Type Script
     prh: （技術用語）
+  - expected: Ubuntu
+    patterns:
+      - ubuntu
+      - UBUNTU
+      - Ubuntsu
+      - Ubunutu
+      - Ubumtu
+      - UbuntuOS
+      - Ubuntu OS
+      - ubuntuOS
+      - Ubuntu os
+      - Ubutnu
+      - Ubntu
+    prh: （技術用語）
   - expected: USB Type-C
     patterns:
       - USB Type C
