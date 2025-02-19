@@ -60,6 +60,16 @@ rules:
       - Direct X
       - direct x
     prh: （技術用語）
+  - expected: Docker Desktop
+    patterns:
+      - Docker Decktop
+      - DockerDesktop
+      - Docker desktop
+      - docker desktop
+      - docker Desktop
+      - dockerDesktop
+      - Dockerdesktop
+      - docker destop
   - expected: ECMAScript
     patterns:
       - ECMA Script
