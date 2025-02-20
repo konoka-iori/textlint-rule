@@ -490,3 +490,12 @@ rules:
       - shfit
       - shifuto
     prh: （誤字）
+  - expected: Satisfactory
+    patterns:
+      - satisfactory
+      - SATISFACTORY
+      - Satisfactroy
+      - Satifactory
+      - Satisfacotry
+      - Satisfactry
+    prh: （誤字 - ゲーム名）
